@@ -6,13 +6,13 @@ function alterarTema() {
     if (tema) {
         let novoTema
 
-        if (tema == "Light") {
-            novoTema = "Dark"
+        if (tema == "light") {
+            novoTema = "dark"
             button.innerHTML = `<img src="/imagens/sun-icon.png" alt="ícone de Sol.">`
             body.classList.remove("Light")
             body.classList.add("dark")
         } else {
-            novoTema = "Light"
+            novoTema = "light"
             button.innerHTML = `<img src="/imagens/moon-icon.png" alt="ícone de Lua.">`
             body.classList.remove("dark")
             body.classList.add("light")
