@@ -134,6 +134,10 @@ main {
     border-top: 1px solid var(--border-color); 
 }
 
+.tarefas input {
+    cursor: pointer;
+}
+
 .completa label {
     text-decoration: line-through;
     color: var(--todo-complete-color);
@@ -156,7 +160,8 @@ main {
 .tarefa button {
     border: none;
     background: none;
-
+    cursor: pointer;
+    
 }
 
 .informacoes {
